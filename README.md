@@ -51,6 +51,9 @@
 
 
 ## Как запустить
-1. Собрать данные: `python parser.py` (требуется установка Chrome).
-2. Установить зависимости: `pip install -r requirements.txt`.
-3. Запустить ноутбук, предварительно добавив `HF_TOKEN`.
+1. Собрать данные:
+   * `python parser.py` (требуется установка Chrome).
+   * скачать готовый датасет `download_link_to_data.txt`.
+3. Установить зависимости: `pip install -r requirements.txt`.
+4. Запустить ноутбук, предварительно добавив `HF_TOKEN`.
+   
