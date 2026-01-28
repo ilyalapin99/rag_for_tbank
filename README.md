@@ -8,7 +8,7 @@
 
 ## Стек
 
-* **Scraping:** Selenium + Webdriver Manager. Реализован парсинг структуры документа (заголовок, URL, текст).
+* **Parser:** Selenium + Webdriver Manager. Реализован парсинг структуры документа (заголовок, URL, текст).
 * **LLM Preprocessing:** `Qwen2.5-7B-Instruct` в квантовании `4-bit` (bitsandbytes). Используется для бинарной классификации: является ли банк активным участником спора.
 * **Embeddings:** `deepvk/USER-bge-m3`.
 * **Retrieval:** Гибридный поиск (`EnsembleRetriever`). Смешиваем `FAISS` (семантика) и `BM25` (ключевые слова).
